@@ -18534,35 +18534,33 @@ q=s[1]
 s=s[2]
 p=b[2]
 return A.b([o*m+l*k+j*n,o*r+l*q+j*s,o*p[0]+l*p[1]+j*p[2]],t.n)},
-a1I(){var s="packages/timezone/data/latest.tzf"
-return A.am7()},
-am7(){var s=0,r=A.R(t.H),q=1,p=[],o=[],n,m,l,k,j,i,h
-var $async$a1I=A.N(function(a,b){if(a===1){p.push(b)
-s=q}while(true)switch(s){case 0:j="packages/timezone/data/latest.tzf"
-i=new A.Jy(new self.AbortController())
+a1I(a){return A.am7(a)},
+am7(a){var s=0,r=A.R(t.H),q=1,p=[],o=[],n,m,l,k,j,i
+var $async$a1I=A.N(function(b,c){if(b===1){p.push(c)
+s=q}while(true)switch(s){case 0:j=new A.Jy(new self.AbortController())
 q=3
 l=t.N
 s=6
-return A.V(i.oy("GET",A.hM(j),A.ay(["Accept","application/octet-stream"],l,l)),$async$a1I)
-case 6:n=b
+return A.V(j.oy("GET",A.hM(a),A.ay(["Accept","application/octet-stream"],l,l)),$async$a1I)
+case 6:n=c
 if(n.b===200)A.am5(n.w)
 else{l=A.a8E("Request failed with status: "+n.b)
 throw A.f(l)}o.push(5)
 s=4
 break
 case 3:q=2
-h=p.pop()
-l=A.ab(h)
-if(l instanceof A.tq)throw h
+i=p.pop()
+l=A.ab(i)
+if(l instanceof A.tq)throw i
 else if(t.A2.b(l)){m=l
 l=A.a8E(J.cQ(m))
-throw A.f(l)}else throw h
+throw A.f(l)}else throw i
 o.push(5)
 s=4
 break
 case 2:o=[1]
 case 4:q=1
-l=i
+l=j
 l.c=!0
 l.a.abort()
 s=o.pop()
@@ -52183,7 +52181,7 @@ return new A.rw(new A.oj(p,q,new A.Fv(r,r,1/0,56),r),new A.m0(s.oz(),new A.ZP(s)
 oz(){var s=0,r=A.R(t.H)
 var $async$oz=A.N(function(a,b){if(a===1)return A.O(b,r)
 while(true)switch(s){case 0:s=2
-return A.V(A.a1I(),$async$oz)
+return A.V(A.a1I("assets/packages/timezone/data/latest_10y.tzf"),$async$oz)
 case 2:return A.P(null,r)}})
 return A.Q($async$oz,r)}}
 A.ZO.prototype={
